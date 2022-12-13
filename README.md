@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+![Logo-nav](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Learning Goals:
+1. In this exercise, the goal is understand and practice how state's work with class components in react.
+2. We will also learn, how to use pre-build react projects.
+3. In this exercise, we will also explore material ui for decoration purpose.
 
-## Available Scripts
+## Getting started:
+1. Fork this repo
+2. Clone this repo
+Whenever you create a first significant change, you should make your first commit.
 
-In the project directory, you can run:
+Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git)
 
-### `npm start`
+### Starter Code:
+The structure for this exercise is already created for you.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**NOTE** This project was created using `npx-create-react-app` command - which means all the necessary modules was installed when this command got executed. And then there are some external modules as well - like material ui; which was installed using `npm install @mui/icons-material` command. So, if you only clone this repository and start making changes in the required files, you will not able to see any changes, or you may ran into errors like - module not found. The main reason for this is that -- inside your project you are trying to use some modules, which your system may not have, so you need to install those modules first. 
+So in order to install all the required modules -> you have to type this command on your terminal:
+`npm install i`
+This will install all the required modules for this project to be working.
+You can explore more about this command 🙂.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You only have to edit following files in order to get the required output:
+1. components/Carousel.css
+2. components/Carousel.js
 
-### `npm test`
+We will be using our `classes` knowledge to implement this image carousel.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Problem Statement:
+The task is to create an image carousel - as shown below:
 
-### `npm run build`
+![image](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/faces-image-carousel-react.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[This is the link for the figma file which you can refer](https://www.figma.com/file/5a22gyCU65dmDleJTrMVGt/Carousel-Project--Kalvium?node-id=0%3A1&t=m10MyQnbauMAZt8Z-1)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Happy Coding Kalvium ❤️!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

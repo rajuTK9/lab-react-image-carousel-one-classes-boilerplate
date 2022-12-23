@@ -5,13 +5,6 @@
 2. We will also learn, how to use pre-build react projects.
 3. In this exercise, we will also explore material ui for decoration purpose.
 
-## Getting started:
-1. Fork this repo
-2. Clone this repo
-Whenever you create a first significant change, you should make your first commit.
-
-Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git)
-
 ### Starter Code:
 The structure for this exercise is already created for you.
 
@@ -40,6 +33,6 @@ Here is a gif, of how it should work like:
 
 
 
-Happy Coding Kalvium ❤️!
+Happy Coding ❤️!
 
 
